@@ -10,7 +10,7 @@ warnings.filterwarnings("ignore", category=UserWarning)
 sys.modules["numpy._core"] = numpy.core
 
 # --- Load model ---
-model_path = r"C:\Users\preja\Downloads\churn_model_logistic.pkl"
+model_path = r"C:\Users\veera\Downloads\churn_model_logistic.pkl"
 with open(model_path, "rb") as f:
     model = pickle.load(f)
 
